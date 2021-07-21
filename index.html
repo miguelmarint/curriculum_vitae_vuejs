@@ -1,0 +1,226 @@
+<div id="app">
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{info.titlePage}}</title>
+        <link rel="icon" type="image/jpg" href="/img/icon.png" title="window mark">
+        <link rel="stylesheet" href="styles.css" title="pages styles">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+
+    <body class="body">
+        <header>
+            <div class="header__container">
+                <div class="header__card">
+                    <div class="card__top-row background-top">
+                        <h1 class="header__title">{{info.personalInfo.name}}</h1>
+                        <img class="header__img-image" src="./img/myphoto.jpg" alt="">
+                        <div class="social__links">
+                            <a href="https://twitter.com/Miguel_M9820" target="_blank" class="twitter"
+                                title="twitter"><span class="fab fa-twitter"></span></a>
+                            <a href="https://www.facebook.com/miguel.marintoro.3" target="_blank" class="facebook"
+                                title="facebook"><span class="fab fa-facebook-f"></span></a>
+                            <a href="https://www.instagram.com/miguel_mt9820/" target="_blank" class="instagram"
+                                title="instagram"><span class="fab fa-instagram"></span></a>
+                            <a href="https://www.linkedin.com/in/miguel-%C3%A1ngel-mar%C3%ADn-toro-3b76a2207/"
+                                target="_blank" class="linkedin" title="linkedin"><span
+                                    class="fab fa-linkedin-in"></span></a>
+                        </div>
+
+                    </div>
+
+                    <div class="header__text">
+                        <h1 class="header__text-h1">
+                            {{info.personalInfo.positionCompany}}
+                        </h1>
+                        <h2 class="header__text-h2">
+                            {{info.personalInfo.career}}
+                            <i class="fas fa-desktop"></i>
+
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+
+            <article class="article__academic-job">
+                <div class="profile__container">
+
+                    <h2 class="profile__title">{{info.profile.name}}</h2>
+                    <p class="profile__description">
+                        {{info.profile.description}}
+                    </p>
+
+                </div>
+
+                <div class="card__row">
+                    <div class="card__column">
+                        <div class="card">
+                            <div class="card__top-row background-top">
+                                <div class="card__icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h3 class="card__title-h3">{{info.titleCard.academicInfo}}</h3>
+                                <h3 class="card__title-h3">{{info.titleCard.basicSecundary}}</h3>
+                            </div>
+                            <ul class="card__list">
+                                <li>{{info.titleList.name}} {{info.academicInfo.schoolName}}</li>
+                                <li>{{info.titleList.city}} {{info.academicInfo.citySchool}}</li>
+                                <li>{{info.titleList.yearDegree}} {{info.academicInfo.yearDegreeSchool}}</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card__column">
+                        <div class="card">
+                            <div class="card__top-row background-top">
+                                <div class="card__icon">
+                                    <i class="fas fa-university"></i>
+                                </div>
+                                <h3 class="card__title-h3">{{info.titleCard.higherEducation}}</h3>
+                                <h3 class="card__title-h3">{{info.titleCard.university}}</h3>
+                            </div>
+                            <ul class="card__list">
+                                <li>{{info.titleList.name}} {{info.academicInfo.universityName}}</li>
+                                <li>{{info.titleList.program}} {{info.personalInfo.career}}</li>
+                                <li>{{info.titleList.level}} {{info.academicInfo.currentSemester}}</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card__column">
+                        <div class="card">
+                            <div class="card__top-row background-top">
+                                <div class="card__icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h3 class="card__title-h3">{{info.titleCard.Competencies}}</h3>
+                                <h3 class="card__title-h3">{{info.titleCard.generalSkills}}</h3>
+                            </div>
+                            <p class="card__description-skills">
+                                {{info.skills.descriptionSkills}}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card__column">
+                        <div class="card">
+                            <div class="card__top-row background-top">
+                                <div class="card__icon">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+                                <h3 class="card__title-h3">{{info.titleCard.careerPath}}</h3>
+                                <h3 class="card__title-h3">{{info.titleCard.descriptionWork}}</h3>
+                            </div>
+                            <p>{{info.workExperience.timeJob}}</p>
+                            <ul class="card__list">
+                                <li>{{info.workExperience.job1}}
+                                </li><br>
+                                <li>{{info.workExperience.job2}}</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </article>
+
+            <article class="english__progress">
+                <div class="progress__container">
+                    <h2 class="progress__title">{{info.titleProgress.title}}</h2>
+                    <h3 class="progress__title-bar">{{info.titleProgress.reading}} {{info.percentageEnglish.reading}}
+                    </h3>
+                    <progress class="progress__bar" max="100" value="70"></progress>
+                    <h3 class="progress__title-bar">{{info.titleProgress.speaking}} {{info.percentageEnglish.speaking}}
+                    </h3>
+                    <progress class="progress__bar" max="100" value="60"></progress>
+                    <h3 class="progress__title-bar">{{info.titleProgress.listening}}
+                        {{info.percentageEnglish.listening}}</h3>
+                    <progress class="progress__bar" max="100" value="60"></progress>
+                </div>
+            </article>
+
+
+
+
+            <footer>
+                <div class="card__row">
+                    <div class="card__column">
+                        <div class="card">
+                            <div class="card__top-row background-top">
+                                <div class="card__icon">
+                                    <i class="fas fa-id-card-alt"></i>
+                                </div>
+                                <h3 class="card__title-h3">{{info.titleCard.contactme}}</h3>
+                            </div>
+
+                            <form action="https://formspree.io/f/xlealjnn" method="POST">
+                                <div class="form__container">
+                                    <div class="form__email">
+                                        <input type="email" name="_replyto" class="email" placeholder="Email">
+                                    </div>
+                                    <div class="form__message">
+                                        <textarea cols="20" rows="3" name="message" placeholder="Message"
+                                            class="message"></textarea>
+
+                                    </div>
+                                    <div class="form__button">
+                                        <button type="submit" class="button">{{info.titleCard.btnSend}}</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="card__column">
+                        <div class="card">
+                            <div class="card__top-row background-top">
+                                <div class="card__icon">
+                                    <i class="fas fa-question-circle"></i>
+                                </div>
+                                <h3 class="card__title-h3">{{info.titleCard.contactInfo}}</h3>
+
+                            </div>
+                            <ul class="card__list-info">
+                                <li>{{info.personalInfo.currentCity}} <i class="fas fa-location-arrow"></i></li>
+                                <li>{{info.personalInfo.email}} <i class="fas fa-envelope-square"></i></li>
+                                <li>{{info.personalInfo.phoneNumber}} <i class="fas fa-phone-square"></i></li>
+                            </ul>
+                            <div class="social__links">
+                                <a href="https://twitter.com/Miguel_M9820" target="_blank" class="twitter"
+                                    title="twitter"><span class="fab fa-twitter"></span></a>
+                                <a href="https://www.facebook.com/miguel.marintoro.3" target="_blank" class="facebook"
+                                    title="facebook"><span class="fab fa-facebook-f"></span></a>
+                                <a href="https://www.instagram.com/miguel_mt9820/" target="_blank" class="instagram"
+                                    title="instagram"><span class="fab fa-instagram"></span></a>
+                                <a href="https://www.linkedin.com/in/miguel-%C3%A1ngel-mar%C3%ADn-toro-3b76a2207/"
+                                    target="_blank" class="linkedin" title="linkedin"><span
+                                        class="fab fa-linkedin-in"></span></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </section>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+        <script type="application/javascript" src="./script.js"></script>
+    </body>
+
+
+
+    </html>
+
+
+</div>

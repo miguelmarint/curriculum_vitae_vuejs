@@ -1,0 +1,72 @@
+{
+    "titlePage":"Curriculum vitae",
+    "personalInfo": {
+        "name": "Miguel Ángel Marin Toro",
+        "currentCity": "Colombia, Caldas, Manizales.",
+        "age": 22,
+        "email": "marintoromiguel.a@gmail.com",
+        "career": "Systems engineer",
+        "positionCompany": "Frontend developer traineer",
+        "phoneNumber": 3165515240,
+        "photo":"./assets/myphoto.jpg"
+    },
+    "profile": {
+        "description":"Currently a tenth semester course in systems engineering, I am one step away to be professional. In all this time I have acquired skills and abilities for the resolution of problems from the technological field. I am a person which teamwork is facilitated, since I am disciplined, expressive, honest and always with a great attitude to join a work team. Something important that I have developed during my career, is the ability to learn in a autonomous, to train myself in some concept, tool or language of programming, that is to say, I always have the desire and the attitude to new knowledge. It is easier for me to speak in public as long as I know what I should speak. In the study of systems engineering, I have had knowledge in creating of web and mobile applications, information systems, desktop programs, problem solving through technology.",
+        "name":"Profile"
+    },
+    "academicInfo":{
+        "schoolName" : "Francisco José de Caldas Technical Institute(ITEC).",
+        "yearDegreeSchool":2015,
+        "citySchool" : "Manizales.",
+        "universityName":"Autonomous University of Manizales.",
+        "currentSemester": "Tenth semester."
+    },
+    "skills":{
+        "descriptionSkills":"Office, java, IDE usage (netbeans, eclipse), html (html5), css, javascript, basic nodejs, boostrap, vuejs, laravel, php, databases (mongodb, postgresql), text editors (Visual Studio Code). Lucidchart for the construction of flowcharts, classes, mockup construction, github version control, among other programming languages ​​and technologies for the realization of information systems."
+    },
+    "workExperience":{
+        "job1":"Web page development of an ips (ServisoSAS), not yet completed, is done in laravel and vuejs.",
+        "job2":"Development of frontend vuejs in software for teaching English, in pikinglish (project not completed).",
+        "timeJob":"Experience of approximately six (6) months"
+    },
+    "percentageEnglish":{
+        "reading":"70%",
+        "listening":"60%",
+        "speaking":"60%"
+    },
+    "socialMediaLinks":{
+        "facebook":"https://www.facebook.com/miguel.marintoro.3",
+        "twitter": "https://twitter.com/Miguel_M9820",
+        "instagram":"https://www.instagram.com/miguel_mt9820/",
+        "linkedin":"https://www.linkedin.com/in/miguel-%C3%A1ngel-mar%C3%ADn-toro-3b76a2207/"
+
+    },
+    "titleList":{
+        "name":"Name:",
+        "city":"City:",
+        "yearDegree":"Year of degree:",
+        "program":"Program:",
+        "level":"Training level:"
+    },
+    "titleCard":{
+        "academicInfo":"Academic information",
+        "basicSecundary":"Basic secundary institution",
+        "higherEducation":"Higher education",
+        "university":"University",
+        "competencies":"Competencies",
+        "generalSkills":"General skills",
+        "careerPath":"Career path",
+        "descriptionWork":"Works as a collaborator in web development",
+        "contactme":"Contact me",
+        "contactInfo":"Contact information",
+        "btnSend":"Send"
+
+    },
+    "titleProgress":{
+        "title":"English progress",
+        "reading":"Reading progress:",
+        "listening":"Listening progress:",
+        "speaking":"Speaking progress:"
+    }
+       
+}
