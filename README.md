@@ -1,2 +1,2 @@
 # curriculum_vitae_vuejs
-Hoja de vida creada con tecnologías html, css, vuejs y json.
+Curriculum created with html, css, vuejs and json technologies. BEM methodology was also used in css.
